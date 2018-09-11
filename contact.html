@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<meta name="description" content="Ayyash Printing Solutions">
+	<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+	<meta name="author" content="Alaa Ayyash">
+	<meta name="viewport" content="width-device width, initial scale=1.0">
+	
+	<title> Ayyash Printing Solutions</title>
+    </head>
+
+    <body>
+	<header>
+	    <h1>Ayyash Printing Solutions</h1>
+	</header>
+
+	<nav>
+	    <ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="goods.html">Goods</a></li>
+		<li><a href="Screenprinting/index.html">Screen Printing</a></li>
+		<li><a href="embroidery.html">Embroidery</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	    </ul>
+
+	<form>
+	    <input type="search" name="q" placeholder="Search">
+	    <input type="submit" value="Go!">
+	</form>
+	</nav><br/>
+
+    <main>
+
+	<address>
+	    Alaa J. Ayyash<br/>
+	    750 East King Street<br/>
+	    Lancaster, PA, 17601<br/>
+	    (717)299-7701<br/>
+	    Email:  <a href="mailto:ajayyash182@stevenscollege.edu">ajayyash182@stevenscollege.edu</a><br/>
+</address>
+
+	<h2>Contact Us</h2>
+
+	    <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
+
+	    <script type="text/javascript">
+    function ValidateForm(frm) {
+        if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+        if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+        if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+        if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+        return true;
+    }
+	    </script>
+	    <table style="width:550px;border:0;" cellpadding="8" cellspacing="0"> <tr> <td>
+
+	    <label for="Name">Name*:</label> </td> <td>
+
+	    <input name="Name" type="text" maxlength="60" style="width:250px;" /> </td> </tr> <tr> <td>
+
+	    <label for="PhoneNumber">Phone number:</label> </td> <td>
+
+	    <input name="PhoneNumber" type="text" maxlength="43" style="width:250px;" /> </td> </tr> <tr> <td>
+
+	    <label for="FromEmailAddress">Email address*:</label> </td> <td>
+
+	    <input name="FromEmailAddress" type="text" maxlength="90" style="width:250px;" /> </td> </tr> <tr> <td>
+
+	    <label for="Comments">Comments*:</label> </td> <td>
+
+	    <textarea name="Comments" rows="7" cols="40" style="width:350px;"></textarea> </td> </tr> <tr> <td>
+
+* - required fields
+
+</td> <td>
+	    <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="web forms">forms</a></div>
+
+	    <input name="skip_Submit" type="submit" value="Submit" />
+
+	    <script src="https://www.100forms.com/js/FORMKEY:7GB64WPHHJ8M" type="text/javascript"></script>
+</td> </tr>
+
+    </table>
+
+    </form>
+
+    <aside>
+	<h2>Related</h2>
+
+	    <ul>
+		<li><a href="#">Inks</a></li>
+		<li><a href="#">Cleaning Supplies and Chemical Additives</a></li>
+		<li><a href="#">Thread</a></li>
+		<li><a href="#">Equipment</a></li>
+	    </ul>
+    </aside>
+
+</main>
+
+    </body>
+
+<footer>
+    <p>&copy; Copyright 2018 by Alaa Ayyash.  All rights reserved.</p>
+</footer>
+
+</html>
